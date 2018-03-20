@@ -8,6 +8,5 @@ Dado("que tenha acesso ao site") do
   end
   
   Então("eu tenha acesso ao trading news") do
-    binding.pry
     @validar.validar_login
   end
